@@ -21,7 +21,7 @@ input[type="text"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid blue;
+  border: 2px solid cornflowerblue;
   border-radius: 4px;
 }
 
@@ -29,7 +29,7 @@ input[type="email"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid blue;
+  border: 2px solid cornflowerblue;
   border-radius: 4px;
 }
 
@@ -37,6 +37,27 @@ input[type="tel"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid blue;
+  border: 2px solid cornflowerblue;
   border-radius: 4px;
+}
+
+.message-area {
+  border: 2px solid cornflowerblue;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 10px;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.section1 {
+  display: inline-block;
+}
+
+img {
+  max-width: 661px;
+  height: 982px;
 }
