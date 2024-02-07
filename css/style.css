@@ -1,0 +1,42 @@
+body {
+  max-width: 2304px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 64px;
+  color: blue;
+}
+
+p {
+  max-width: 578px;
+}
+
+.form-side {
+  position: relative;
+  top: 47px;
+}
+
+input[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+input[type="email"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+input[type="tel"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
