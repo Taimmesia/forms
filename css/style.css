@@ -3,6 +3,7 @@
 body {
   max-width: 2304px;
   margin: auto;
+  background-color: beige;
 }
 
 * {
@@ -28,7 +29,7 @@ input[type="text"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid cornflowerblue;
+  border-bottom: 3px solid cornflowerblue;
   border-radius: 4px;
 }
 
@@ -36,7 +37,7 @@ input[type="email"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid cornflowerblue;
+  border-bottom: 3px solid cornflowerblue;
   border-radius: 4px;
 }
 
@@ -44,12 +45,12 @@ input[type="tel"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid cornflowerblue;
+  border-bottom: 3px solid cornflowerblue;
   border-radius: 4px;
 }
 
 .message-area {
-  border: 2px solid cornflowerblue;
+  border-bottom: 3px solid cornflowerblue;
   border-radius: 4px;
 }
 
@@ -62,4 +63,15 @@ button {
 
 .section1 {
   display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.img-woman {
+  position: relative;
+  left: 50px;
+  border: 2px solid;
+  border-color: beige;
+  border-radius: 50%;
 }
