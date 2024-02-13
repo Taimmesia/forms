@@ -25,22 +25,8 @@ p {
   top: 47px;
 }
 
-input[type="text"] {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border-bottom: 3px solid cornflowerblue;
-  border-radius: 4px;
-}
-
-input[type="email"] {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border-bottom: 3px solid cornflowerblue;
-  border-radius: 4px;
-}
-
+input[type="text"],
+input[type="email"],
 input[type="tel"] {
   padding: 12px 20px;
   margin: 8px 0;
@@ -61,7 +47,12 @@ button {
   border-radius: 6px;
 }
 
-.section1 {
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.section-sides {
   display: inline-block;
   position: relative;
   top: 50px;

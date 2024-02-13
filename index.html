@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <main><section class="section1">
+    <main><section class="section-sides">
       <div class="container">
 
         <h2>Contact Us</h2>
@@ -16,52 +16,42 @@
           We’re here to help! Send us your query via the form below or send us
           an email at helpdesk@gstudio.com for any issue you’re facing
         </p>
-        
           <div class="form-side">
             <form action="action_page.php" method="POST">
               <div>
                 <label for="fullname">Full name:</label>
                 <input
                   type="text"
-                  class="Fullname"
+                  id="fullname"
                   placeholder=" Your full name"
                   required
                 />
               </div>
 
-              <br />
-
               <div>
                 <label for="email">Email Address:</label>
                 <input
                   type="email"
-                  class="email"
+                  id="email"
                   placeholder="example@email.com"
                   required
                 />
               </div>
 
-              <br />
-
               <div>
                 <label for="phone">Telephone Number:</label>
-                <input type="tel" class="phone" placeholder="(123) 4567890" />
+                <input type="tel" id="phone" placeholder="(123) 4567890" />
               </div>
-
-              <br />
 
               <div>
                 <label for="message">Message:</label>
-                <textarea
-                  name="message"
-                  class="message-area"
+               <textarea name="message"
+                  id="message-area"
                   cols="20"
                   rows="1"
                   placeholder="Type your message here"
-                ></textarea>
+                 ></textarea>  
               </div>
-
-              <br />
 
               <div>
                 <button type="submit">Submit</button>
@@ -69,10 +59,9 @@
             </form>
           </div>
         </section>
-        <section class="section1">
-          <img class="img-woman" src="image/Tech support call on the computer.jpg" alt="woman working on a laptop" />
+        <section class="section-sides">
+          <img class="img-woman" src="image/tech-support.jpg" alt="woman working on a laptop" />
         </section>
-      </div>
     </main>
   </body>
 </html>
